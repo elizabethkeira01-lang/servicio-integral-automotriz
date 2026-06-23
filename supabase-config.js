@@ -1,3 +1,3 @@
-const SUPABASE_URL = "PEGA_AQUI_TU_SUPABASE_URL";
-const SUPABASE_ANON_KEY = "PEGA_AQUI_TU_SUPABASE_ANON_KEY";
+const SUPABASE_URL = "https://tvmftquerbehaqyavjib.supabase.co";
+const SUPABASE_ANON_KEY = "sb_publishable_ZclPBgdOhTsZFWaudYA5Iw_CABHGT2h";
 const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
