@@ -4,5 +4,12 @@
 <section class="card"><h2>Servicios</h2><div class="grid"><div>🔧 Diagnóstico</div><div>🛢️ Cambio de aceite</div><div>🚗 Afinación</div><div>🛞 Suspensión</div><div>🛑 Frenos</div><div>❄️ Aire acondicionado</div></div></section>
 <section id="agenda" class="card"><h2>Agendar cita</h2><form id="citaForm"><h3>Datos del cliente</h3><input id="nombre" placeholder="Nombre completo" required><input id="telefono" placeholder="WhatsApp / Teléfono" required><h3>Datos del vehículo</h3><input id="marca" placeholder="Marca"><input id="modelo" placeholder="Modelo"><input id="anio" placeholder="Año"><input id="placas" placeholder="Placas, opcional"><h3>Servicio</h3><select id="servicio" required><option value="">Selecciona un servicio</option><option>Diagnóstico</option><option>Cambio de aceite</option><option>Afinación</option><option>Frenos</option><option>Suspensión</option><option>Aire acondicionado</option><option>Otro</option></select><div class="two"><input id="fecha" type="date" required><select id="hora" required><option value="">Selecciona horario</option></select></div><textarea id="comentarios" placeholder="Describe brevemente la falla o servicio que necesitas"></textarea><button type="submit">Enviar solicitud</button></form><p id="mensaje" class="mensaje"></p></section>
 <section id="seguimiento" class="card"><h2>Consultar mi vehículo</h2><p>Ingresa tu folio y teléfono para ver el avance.</p><div class="two"><input id="folioConsulta" placeholder="Folio, ejemplo SIA-000001"><input id="telefonoConsulta" placeholder="Teléfono"></div><button onclick="consultarSeguimiento()">Consultar avance</button><div id="resultadoSeguimiento"></div></section>
-<section class="card"><h2>Contacto</h2><p>📞 844 246 4370</p><p>📍 Calle Imperio Mongol 585, Puerta del Oriente 2da Etapa, Saltillo, Coahuila</p><p>🕒 Lunes a Viernes: 8:00 AM - 6:00 PM</p><p>🕒 Sábados: 8:00 AM - 4:00 PM</p></section>
+<section class="card"><h2>Contacto</h2><p>📞 844 246 4370</p><p>📍 Calle Imperio Mongol, Puerta del Oriente 2da Etapa, Saltillo, Coahuila</p>
+  <a
+    href="https://maps.app.goo.gl/ZYkkugMVq2kJRp7X8"
+target="_blank">
+
+🚗 Cómo llegar al taller
+    </a>
+    <p>🕒 Lunes a Viernes: 8:00 AM - 6:00 PM</p><p>🕒 Sábados: 8:00 AM - 4:00 PM</p></section>
 </main><footer>© Servicio Integral Automotriz</footer><script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="supabase-config.js"></script><script src="app.js"></script></body></html>
