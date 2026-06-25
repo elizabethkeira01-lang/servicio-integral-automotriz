@@ -57,3 +57,155 @@ border-left-color:#f97316;
 }
 
 }
+/* ===========================
+   HERO NUEVO
+=========================== */
+
+.hero{
+    min-height: 100vh;
+    background: linear-gradient(135deg,#16265d,#1f49c8);
+    color:#fff;
+    display:flex;
+    flex-direction:column;
+}
+
+.navbar{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    padding:25px 0;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.navbar strong{
+    font-size:1.3rem;
+    letter-spacing:1px;
+}
+
+.navbar div{
+    display:flex;
+    gap:15px;
+}
+
+.navbar a{
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+}
+
+.navbar a:hover{
+    color:#8cc8ff;
+}
+
+.hero-content{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:30px;
+}
+
+.logo-hero{
+    width:260px;
+    max-width:90%;
+    margin-bottom:30px;
+}
+
+.hero-content h1{
+    font-size:3rem;
+    margin-bottom:15px;
+}
+
+.hero-content p{
+    font-size:1.2rem;
+    max-width:650px;
+    line-height:1.6;
+    margin-bottom:30px;
+}
+
+.hero-buttons{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.btn{
+    padding:14px 30px;
+    border-radius:40px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+}
+
+.btn.secondary{
+    background:white;
+    color:#1f49c8;
+}
+
+/* ===========================
+   TARJETAS
+=========================== */
+
+.card{
+    max-width:1100px;
+    margin:40px auto;
+    border-radius:20px;
+    padding:35px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:18px;
+}
+
+.grid div{
+    background:#eef4ff;
+    padding:25px;
+    border-radius:18px;
+    text-align:center;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.grid div:hover{
+    transform:translateY(-6px);
+    background:#d9e8ff;
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:768px){
+
+    .navbar{
+        flex-direction:column;
+        gap:20px;
+    }
+
+    .navbar div{
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
+    .hero-content h1{
+        font-size:2.2rem;
+    }
+
+    .logo-hero{
+        width:180px;
+    }
+
+}
