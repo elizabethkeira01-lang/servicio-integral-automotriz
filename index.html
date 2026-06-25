@@ -1,5 +1,18 @@
 <!DOCTYPE html><html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Servicio Integral Automotriz</title><link rel="stylesheet" href="styles.css"></head><body>
-<header class="hero"><nav><strong>Servicio Integral Automotriz</strong><div><a href="#agenda">Agendar</a><a href="#seguimiento">Seguimiento</a><a href="portal.html">Portal</a></div></nav><section class="hero-content"><h1>Agenda tu cita en el taller</h1><p>Diagnóstico, mantenimiento y reparación automotriz profesional.</p><a class="btn" href="#agenda">Agendar ahora</a></section></header>
+<header class="hero"><nav>
+
+    <div class="logo-nav">
+        <img src="img/logo.png" alt="Servicio Integral Automotriz">
+        <strong>Servicio Integral Automotriz</strong>
+    </div>
+
+    <div>
+        <a href="#agenda">Agendar</a>
+        <a href="#seguimiento">Seguimiento</a>
+        <a href="portal.html">Portal</a>
+    </div>
+
+</nav><section class="hero-content"><h1>Agenda tu cita en el taller</h1><p>Diagnóstico, mantenimiento y reparación automotriz profesional.</p><a class="btn" href="#agenda">Agendar ahora</a></section></header>
 <main>
 <section class="card"><h2>Servicios</h2><div class="grid"><div>🔧 Diagnóstico</div><div>🛢️ Cambio de aceite</div><div>🚗 Afinación</div><div>🛞 Suspensión</div><div>🛑 Frenos</div><div>❄️ Aire acondicionado</div></div></section>
 <section id="agenda" class="card"><h2>Agendar cita</h2><form id="citaForm"><h3>Datos del cliente</h3><input id="nombre" placeholder="Nombre completo" required><input id="telefono" placeholder="WhatsApp / Teléfono" required><h3>Datos del vehículo</h3><input id="marca" placeholder="Marca"><input id="modelo" placeholder="Modelo"><input id="anio" placeholder="Año"><input id="placas" placeholder="Placas, opcional"><h3>Servicio</h3><select id="servicio" required><option value="">Selecciona un servicio</option><option>Diagnóstico</option><option>Cambio de aceite</option><option>Afinación</option><option>Frenos</option><option>Suspensión</option><option>Aire acondicionado</option><option>Otro</option></select><div class="two"><input id="fecha" type="date" required><select id="hora" required><option value="">Selecciona horario</option></select></div><textarea id="comentarios" placeholder="Describe brevemente la falla o servicio que necesitas"></textarea><button type="submit">Enviar solicitud</button></form><p id="mensaje" class="mensaje"></p></section>
