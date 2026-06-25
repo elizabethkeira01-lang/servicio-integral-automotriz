@@ -50,10 +50,10 @@ border-left-color:#f97316;
     align-items:center;
     gap:15px;
 }
-
 .logo-nav img{
-    width:70px;
+    width:90px;
     height:auto;
+    display:block;
 }
 
 }
