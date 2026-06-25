@@ -45,5 +45,15 @@ font-weight:bold;
 background:#fff7ed;
 border-left-color:#f97316;
 }
+  .logo-nav{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.logo-nav img{
+    width:70px;
+    height:auto;
+}
 
 }
